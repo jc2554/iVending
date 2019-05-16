@@ -1,5 +1,5 @@
 """
-Fae detector using OpenCV
+Face detector using OpenCV
 
 MIT License
 
@@ -53,8 +53,8 @@ class FaceDetector(object):
 
 """
 Normalize image by
-Truncate out the face from teh image using the bounding box
-Resize the image with interpolation using openCv
+Truncate the image using the bounding box of the face
+Resize the image with interpolation using OpenCV
 """
 def normalize_faces(image, faces_coord, size=(160, 160)):
     faces = []
